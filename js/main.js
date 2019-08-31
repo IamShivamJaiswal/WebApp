@@ -26,7 +26,7 @@ $(document).ready(function () {
                 $("#imagePreview").css("background-image", "url(" + imgbase64 + ")");
                 $("#imagePreview").hide();
                 $("#imagePreview").fadeIn(650);
-            }
+            };
             reader.readAsDataURL(input.files[0]);
         }
     }
