@@ -6,3 +6,5 @@
      steps:
        - checkout
        - run: echo "A first hello"
+   post:
+    - coveralls
